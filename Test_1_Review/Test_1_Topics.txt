@@ -1,0 +1,28 @@
+Please note everything covered in chapters 7,8,9 and 10 is included in possible test material.  This document highlights important areas to focus on.
+
+Chapter 7
+-Preload images
+-Use one time timers (setTimeout, clearTimeout)
+-Use interval timers (setInterval, clearInterval)
+-Properties of HTML img element (src, alt, width, height)
+
+Chapter 8
+-What is JQuery
+-Advantages of JQuery
+-Selectors ex// $(#faqs h2").. there are many)  I will focus mainly on selectors we used on the assignments
+-JQuery Methods ( ex// val, text, next.... there are many) I will focus mainly on methods we used on the assignments
+-JQuery event methods ( ex// ready, click, .. there are many) I will focus mainly on event methods we used on the assignments
+
+Chapter 9
+JQuery effect methods ( show, hide, slideup, fadeIn....etc) I will focus mainly on effect methods used on the assignments
+Creating a timer
+Cancel and restarting a timer
+Animate method
+Understand the queue for an element
+Understand how to chain animation methods
+Understand how to use a callback function for after a animation completes
+
+Chapter 10
+HTML forms
+Html5 form validation vs javascript / JQuery form validation
+Understand the basic steps for validating a form with Javascript and JQuery

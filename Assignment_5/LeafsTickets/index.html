@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Leafs Tickets</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="reservation.js"></script>
+</head>
+	
+<body>
+	<h1>Leafs Tickets</h1>
+	<form action="response.html" method="get"
+    	name="reservation_form" id="reservation_form">
+		<fieldset>
+        	<legend>General Information</legend>
+        	<label for="arrival_date">Game date:</label>
+        	<input type="text" name="arrival_date" id="arrival_date" autofocus>
+        	<span>*</span><br>
+        	<label>Adults:</label>
+        	<select name="adults" id="adults">
+        		<option value="1">1</option>
+        		<option value="2">2</option>
+        		<option value="3">3</option>
+        		<option value="4">4</option>        		        		        		
+        	</select><br>
+        	<label>Children:</label>
+        	<select name="children" id="children">
+        		<option value="0">0</option>
+        		<option value="1">1</option>
+        		<option value="2">2</option>
+        		<option value="3">3</option>
+        		<option value="4">4</option>        		        		        		
+        	</select><br>        	
+		</fieldset>
+		<fieldset>
+        	<legend>Preferences</legend>
+        	<label>Seats:</label>
+			<input type="radio" name="location" id="center" value="center" class="left" checked>Center Ice&nbsp;&nbsp;&nbsp;	        	
+			<input type="radio" name="location" id="standard" value ="standard" class="left">Best Value&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="location" id="suite" value ="suite" class="left last">Corporate Suite<br>
+            <label for="price">Price:</label>
+			<input disabled type="text" name="price" id="price">
+		</fieldset>		
+		<fieldset>
+    		<legend>Contact Information</legend>
+    		<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+			<span>*</span><br>
+        	<label for="email">Email:</label>
+        	<input type="text" name="email" id="email">
+        	<span>*</span><br>
+			<label for="phone">Phone:</label>
+			<input type="text" name="phone" id="phone" placeholder="999-999-9999">
+			<span>*</span><br>
+		</fieldset>
+
+		<input type="submit" id="submit" value="Submit Request"><br>
+
+	</form>
+</body>
+</html>
